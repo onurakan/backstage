@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: moneytransfer.ear
+  description: Handles money transfers and transactions
+  tags:
+    - backend
+    - moneytransfer
+spec:
+  type: service
+  lifecycle: production
+  owner: manifest-squad
+  system: paycell-transfer
